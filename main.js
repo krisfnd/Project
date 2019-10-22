@@ -125,4 +125,5 @@ new Vue({
         showAddress(address);
 
         alert('load Success!!');
+        alert('load Success!!');
 
