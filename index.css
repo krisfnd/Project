@@ -9,8 +9,6 @@
     top: 0;
     left: 0;
     right: 0;
-    /* float: left; */
-    /* padding-top: 1rem; */
     height: 3rem;
     padding-left: 1rem;
     margin: auto;
@@ -27,7 +25,9 @@
     white-space: nowrap;
 }
 .parallax-window01 {
-    height: 100vh;
+  /*  background-image: url(/images/bg-0.jpg); */
+    height: 100vh;    
+    background-repeat:no-repeat;
 }
 .maintitlecontent {
     padding-top: 220px;
@@ -61,11 +61,11 @@
 .footer {
     padding-top: 100px;
     padding-bottom: 80px;}
-    .copyright {
-        font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
-      /*  font-family: Helvetica,Arial;*/
-        text-align: center;
-        color: #fff;
-        letter-spacing: 0.5px;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    
+.copyright {
+    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
     }
