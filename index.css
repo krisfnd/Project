@@ -1,15 +1,71 @@
 
 .nav{
-    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
-    background-color: #339966;
-    color: aliceblue;
-    font-size: 50px;
+    position: fixed;
+    z-index: 1030;
+    background-color: #343a40 !important;
+    font-size: 38px;
     line-height: 1;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
-    height: 70px;
+    right: 0;
+    /* float: left; */
+    /* padding-top: 1rem; */
+    height: 3rem;
+    padding-left: 1rem;
+    margin: auto;
 }
+.brand{
+    font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #fe5050 !important;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.parallax-window01 {
+    height: 100vh;
+}
+.maintitlecontent {
+    padding-top: 220px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mouse-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    height: 40px;
+    width: 24px;
+    margin-left: -15px;
+    display: block;
+    z-index: 10;
+    opacity: 0.7;
+}
+.mouse-icon .wheel {
+    position: relative;
+    border-radius: 10px;
+    background: #fff;
+    width: 2px;
+    height: 6px;
+    top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    padding-top: 100px;
+    padding-bottom: 80px;}
+    .copyright {
+        font-family: "SF Pro TC","SF Pro Display","SF Pro Icons","PingFang TC","Helvetica Neue","Helvetica","Arial",sans-serif;
+      /*  font-family: Helvetica,Arial;*/
+        text-align: center;
+        color: #fff;
+        letter-spacing: 0.5px;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    }

@@ -1,1 +1,1 @@
-alert("Load Successful !")
+alert("Load Successful !!")
