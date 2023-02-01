@@ -26,7 +26,7 @@
     white-space: nowrap;
 }
 .parallax-window01 {
-  /*  background-image: url(/images/bg-0.jpg); */
+    background-image: url(/images/bg-0.jpg); 
     height: 100vh;    
     background-repeat:no-repeat;
 }
